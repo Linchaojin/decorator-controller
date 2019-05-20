@@ -1,0 +1,15 @@
+{
+  "name": "decorator-controller",
+  "version": "1.0.6",
+  "description": "使用ES7新特性的修饰器实现控制层，ES6环境需要babel支持，暂时不支持ES5",
+  "main": "index.js",
+  "author": "linchaojin",
+  "license": "ISC",
+  "scripts": {},
+  "keywords": [
+    "controller",
+    "decorator",
+    "ES7",
+    "babel"
+  ]
+}
