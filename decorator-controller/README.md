@@ -1,12 +1,12 @@
 ### Decorator Controller
-####项目简介：
+#### 项目简介：
 &emsp;&emsp;使用ES7的新特性——修饰器（decorator）实现的一个NodeJS控制层框架。通过递归扫描目标目录，解析注解实现控制层。你可以用一个@RequestMapping注解简单地实现一个请求接口，使用起来就和SpringMVC。告别繁琐又麻烦地app.get和app.post的使用，拒绝像express-controller用下划线写请求接口，用数组写中间件。你可以自由使用注解声明各种接口，你也可以自定义中间件，使用注解的方式，决定哪一个接口使用中间件。<br>&emsp;&emsp;由于当前版本的NodeJS尚未完全实现对ES7的支持，因此，使用时需要配合babel使用transform-decorators-legacy插件进行转码。
-####安装
+#### 安装
 ~~~bash
 npm i decorator-controller
 ~~~
-####使用
-#####安装babel
+#### 使用
+##### 安装babel
 
 安装babel相关依赖和ES7修饰器特性转码包 babel-plugin-transform-decorators-legacy
 ~~~bash
