@@ -1,6 +1,6 @@
 {
   "name": "decorator-controller",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "使用ES7新特性的修饰器实现控制层，ES6环境需要babel支持，暂时不支持ES5",
   "main": "index.js",
   "author": "linchaojin",
@@ -11,5 +11,12 @@
     "decorator",
     "ES7",
     "babel"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Linchaojin/decorator-controller.git"
+  },
+  "dependencies": {
+    "multer": "^1.4.1"
+  }
 }
